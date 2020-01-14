@@ -3,14 +3,16 @@ Identify videos with facial or voice manipulations
 
 
 ## Team Members
-Anon Cheewakarn
 
-Ellen Kalvan
+Anon Cheewakarn (acheewak)
 
-Jesse Schmidt
+Ellen Kalvan (ekalvan)
+
+Jesse Schmidt (jbschmid)
 
 
 ## Dataset
+
 We will be working with ~470GB worth of .mp4 files that are divided into smaller sets of ~10GB per set. Each set is accompanied with a metadata.json with 4 fields for each .mp4 file. 
 
 The 4 fields are:
@@ -21,12 +23,15 @@ The 4 fields are:
 
 
 ## Input
+
 tbd
 
 
 ## Output Behavior of the System
-The system should output the likelihood, in percentage, that a video (an mp4 file) is FAKE.
+
+The system will output the likelihood, in percentage, that a video (an mp4 file) is FAKE.
 
 
 ## Evaluation Metric for Success
+
 tbd

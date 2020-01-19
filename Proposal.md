@@ -13,7 +13,7 @@ Jesse Schmidt (jbschmid)
 
 ## Dataset
 
-We will be working with ~470GB worth of MP4 files that are divided into smaller sets of ~10GB per set. Each set is accompanied by a metadata.json with 4 fields for each MP4 file. 
+We will be working with ~470GB worth of compressed MP4 files that are divided into smaller sets of ~10GB per set. Each set is accompanied by a metadata.json with 4 fields for each MP4 file. 
 
 The 4 fields are:
 1. `filename` - name of the MP4 file

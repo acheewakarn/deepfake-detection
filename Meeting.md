@@ -1,6 +1,7 @@
 # Meeting Summaries
 
 Meeting Time: Biweekly, Tuesday 9:00-9:15AM
+
 TA: Michael
 
 ---

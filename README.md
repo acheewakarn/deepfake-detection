@@ -11,3 +11,7 @@ Then run `pipenv sync` to install all dependencies. This may take some time beca
 To add more dependencies run `pipenv install {package}`
 
 If you need to run a shell or REPL inside the virtual environment then run `pipenv shell` then once in the shell run `python` to open REPL.
+
+# Training Data
+
+All training data can go into a folder called `/training-data`.  This folder is in the `.gitignore`.

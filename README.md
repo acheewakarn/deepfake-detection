@@ -4,7 +4,7 @@ https://www.kaggle.com/c/deepfake-detection-challenge
 
 # Installing Dependencies
 
-Install pipenv via ```pipenv --three --python=`which python3` ```
+Install pipenv via ```python3 -m pip install pipenv```
 
 Then run `pipenv sync` to install all dependencies. This may take some time because of Tensorflow.
 

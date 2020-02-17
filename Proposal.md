@@ -1,5 +1,4 @@
-# Deepfake Detection Challenge
-
+# [Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/data)
 Identify videos with facial or voice manipulations
 
 
@@ -50,3 +49,7 @@ The F1 score is a common function used for the analysis of binary classification
 ![equation](http://bit.ly/2TPoIqD)
 `Precision` **p** is the ratio of correct positive classifications to positive classifications and `Recall` **r** is the ratio of correct positive classifications to all classifications that should have been positive. A perfect F1 score is 1 and while the worst is 0.  Again, keeping our success threshold modest an F1 score of .75 will be considered a success.
 
+
+The competition uses the log loss function to score submissions. We will be optimizing for small log loss, and avoiding false positives at all costs. 
+
+Explanation of log loss: https://www.kaggle.com/c/deepfake-detection-challenge/overview/evaluation

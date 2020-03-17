@@ -4,6 +4,11 @@ https://www.kaggle.com/c/deepfake-detection-challenge
 
 # Folder Structure
 
+#### /audio_model_replacements
+This folder contains python files that will replace those from Dessa's Fake Audio Model. Simply place them in the directory where the original files are.
+
+To download Dessa's Fake Audio Model,follow the setup instruction here: https://github.com/dessa-oss/fake-voice-detection
+
 #### /notebooks
 This directory contains Python notebook used for preprocessing data as well as all the variations of models we created.
   - data-extraction.ipynb: This notebook is used to extract/preprocess data from Kaggle Deepfake Detection Challenge.

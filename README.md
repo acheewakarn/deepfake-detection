@@ -26,10 +26,10 @@ There may be extra `weight.h5` files and this is so each training session does n
 #### /util
 
 Helper modules for data processing and miscellaneous things
-- process-metadata.py
+- processMetadata.py
         - Functions to process and integrate new metadata files into our current training and validation set. 
 - VideoDataGenerator.py
         - Generator inherited from Keras.Sequence that helped us load video frames, audio classifications, and labels in 
         batches to be used with fit_generator. 
-- BalanceDataset.py
+- balanceDataset.py
         - Simply goes through the metadata and remove fake videos until the dataset reaches 1:1 real/fake ratio

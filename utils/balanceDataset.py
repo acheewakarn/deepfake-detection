@@ -2,7 +2,7 @@ import os
 import json
 
 
-def CreateBalanceMetadata():
+def createBalanceMetadata():
     new_metadata = {}
     real = 0
     metadata = {}
@@ -26,7 +26,7 @@ def CreateBalanceMetadata():
     return new_metadata
 
 
-def RemoveFilesNotInMetadata(metadata):
+def removeFilesNotInMetadata(metadata):
     metadata = {}
 
     with open('new_metadata.json') as f:
@@ -38,7 +38,7 @@ def RemoveFilesNotInMetadata(metadata):
             os.remove(fname)
 
     
-def GetRealFakeCount(new_metadata):
+def getRealFakeCount(new_metadata):
     real = 0
     fake = 0
     for key in new_metadata:

@@ -12,7 +12,7 @@ To download Dessa's Fake Audio Model,follow the setup instruction here: https://
 #### /notebooks
 This directory contains Python notebook used for preprocessing data as well as all the variations of models we created.
   - data-extraction.ipynb: This notebook is used to extract/preprocess data from Kaggle Deepfake Detection Challenge.
-  - models: They are all almost identical with slight variations.  The model that we had the most success with is v2 which is discussed in our paper.  To find the training results for notebook v[1-6] look in the /results directory.
+  - models: They are all almost identical with slight variations.  The model that we had the most success with is v4 which is discussed in our paper.  To find the training results for notebook v[1-6] look in the /results directory.  When training model v1 we only had 1000 data points and had a much smaller primary dense layer.
 
 #### /results
 Each model notebook corresponds to a results subdirectory.  Inside of each directory you will find 2 files:

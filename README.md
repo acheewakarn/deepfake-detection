@@ -2,7 +2,11 @@
 
 https://www.kaggle.com/c/deepfake-detection-challenge
 
-# Folder Structure
+## Presentation Video
+
+https://www.youtube.com/watch?v=FAiBOfrjbts&feature=youtu.be
+
+## Folder Structure
 
 #### /audio_model_replacements
 This folder contains python files that will replace those from Dessa's Fake Audio Model. Simply place them in the directory where the original files are.

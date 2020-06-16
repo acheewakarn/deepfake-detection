@@ -3,8 +3,7 @@
 https://www.kaggle.com/c/deepfake-detection-challenge
 
 ## Presentation Video
-
-https://www.youtube.com/watch?v=FAiBOfrjbts&feature=youtu.be
+https://youtu.be/gBxWmQMgMrw
 
 ## Folder Structure
 
